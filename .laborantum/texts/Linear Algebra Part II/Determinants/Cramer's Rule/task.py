@@ -9,22 +9,20 @@ home_dir = Path(__file__).parent.resolve()
 answer = {
     "task1": {
         "det_A_terms": sorted([
-### YOUR CODE HERE ###
-        ]),
+"-2"        ]),
         "det_A_1_terms": sorted([
-### YOUR CODE HERE ###
-        ]),
+"-2"        ]),
         "det_A_2_terms": sorted([
-### YOUR CODE HERE ###
-        ]),
+"-2"        ]),
         "x": np.array(
-### YOUR CODE HERE ###
-        ),
+[1,1]        ),
         "cofactors": np.array(
-### YOUR CODE HERE ###
-        ),
+[1,-1],[-1,1]        
+)
+,
         "inverse": np.array(
-### YOUR CODE HERE ###
+### 1/det(a) * cof
+[0.5,-0.5],[-0.5,0.5]
         )
     },
     "task2": {
