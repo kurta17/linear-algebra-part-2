@@ -6,7 +6,8 @@ home_dir = Path(__file__).parent.resolve()
 
 answer = {
         "2x2": {
-            "+": sorted(["1 2"]), 
+            "+": sorted([
+                '1 2']), 
             "-": sorted(["2 1"])
             },
         "3x3": {
