@@ -9,21 +9,23 @@ home_dir = Path(__file__).parent.resolve()
 answer = {
     "task1": {
         "det_A_terms": sorted([
-"-2"        ]),
+            -1,-1
+        ]),
         "det_A_1_terms": sorted([
-"-2"        ]),
+            -2,0
+        ]),
         "det_A_2_terms": sorted([
-"-2"        ]),
-        "x": np.array(
-[1,1]        ),
-        "cofactors": np.array(
-[1,-1],[-1,1]        
-)
-,
-        "inverse": np.array(
-### 1/det(a) * cof
-[0.5,-0.5],[-0.5,0.5]
-        )
+            -2,0
+        ]),
+        "x": np.array([1, 1], dtype=np.int64),
+        "cofactors": np.array([
+            [1, -1],
+            [-1, 1]
+        ], dtype=np.int64),
+        "inverse": np.array([
+            [0.5, -0.5],
+            [-0.5, 0.5]
+        ], dtype=np.float64)
     },
     "task2": {
         "det_A_terms": sorted([
@@ -35,13 +37,13 @@ answer = {
         "det_A_2_terms": sorted([
 ### YOUR CODE HERE ###
         ]),
-        "x": np.array(
+        "x": np.array([]
 ### YOUR CODE HERE ###
         ),
-        "cofactors": np.array(
+        "cofactors": np.array([]
 ### YOUR CODE HERE ###
         ),
-        "inverse": np.array(
+        "inverse": np.array([]
 ### YOUR CODE HERE ###
         )
     },
@@ -55,13 +57,13 @@ answer = {
         "det_A_2_terms": sorted([
 ### YOUR CODE HERE ###
         ]),
-        "x": np.array(
+        "x": np.array([]
 ### YOUR CODE HERE ###
         ),
-        "cofactors": np.array(
+        "cofactors": np.array([]
 ### YOUR CODE HERE ###
         ),
-        "inverse": np.array(
+        "inverse": np.array([]
 ### YOUR CODE HERE ###
         )
     }
