@@ -29,13 +29,13 @@ answer = {
     },
     "task2": {
         "det_A_terms": sorted([
-### YOUR CODE HERE ###
+            ### YOUR CODE HERE ###
         ]),
         "det_A_1_terms": sorted([
-### YOUR CODE HERE ###
+            ### YOUR CODE HERE ###
         ]),
         "det_A_2_terms": sorted([
-### YOUR CODE HERE ###
+            ### YOUR CODE HERE ###
         ]),
         "x": np.array([]
 ### YOUR CODE HERE ###
@@ -49,13 +49,13 @@ answer = {
     },
     "task3": {
         "det_A_terms": sorted([
-### YOUR CODE HERE ###
+            ### YOUR CODE HERE ###
         ]),
         "det_A_1_terms": sorted([
-### YOUR CODE HERE ###
+            ### YOUR CODE HERE ###
         ]),
         "det_A_2_terms": sorted([
-### YOUR CODE HERE ###
+            ### YOUR CODE HERE ###
         ]),
         "x": np.array([]
 ### YOUR CODE HERE ###
