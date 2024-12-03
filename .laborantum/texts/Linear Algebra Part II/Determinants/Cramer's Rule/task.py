@@ -29,27 +29,28 @@ answer = {
     },
     "task2": {
         "det_A_terms": sorted([
-            ### YOUR CODE HERE ###
+            2,3
         ]),
         "det_A_1_terms": sorted([
-            ### YOUR CODE HERE ###
+            2,8
         ]),
         "det_A_2_terms": sorted([
-            ### YOUR CODE HERE ###
+            8,3
         ]),
-        "x": np.array([]
-### YOUR CODE HERE ###
+        "x": np.array(
+            [2,1]
         ),
-        "cofactors": np.array([]
-### YOUR CODE HERE ###
-        ),
-        "inverse": np.array([]
-### YOUR CODE HERE ###
-        )
+        "cofactors": np.array(
+            [[-2, 3], 
+             [-1, -1]], 
+            dtype=np.int64),
+        "inverse": np.array(
+            [[-0.4, -0.2], 
+             [0.6, -0.2]])
     },
     "task3": {
         "det_A_terms": sorted([
-            ### YOUR CODE HERE ###
+            -6, -2, -2, 1, 2, 3
         ]),
         "det_A_1_terms": sorted([
             ### YOUR CODE HERE ###
@@ -57,8 +58,7 @@ answer = {
         "det_A_2_terms": sorted([
             ### YOUR CODE HERE ###
         ]),
-        "x": np.array([]
-### YOUR CODE HERE ###
+        "x": np.array([1,1,0]
         ),
         "cofactors": np.array([]
 ### YOUR CODE HERE ###
